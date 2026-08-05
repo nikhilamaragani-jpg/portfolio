@@ -1,15 +1,10 @@
-# portfolio (code mirror)
+# portfolio (mirror only)
 
-> **Primary live site:** https://nikhilamaragani-jpg.github.io/  
-> Use that URL in GitHub profile, LinkedIn, and resume.
+**Primary live site:** https://nikhilamaragani-jpg.github.io/
 
-This repository holds a copy of the portfolio HTML/CSS for versioning.  
-It is **not** a second brand. If project Pages (`/portfolio/`) is enabled, treat it as a mirror of the same content.
+Use that URL everywhere (GitHub profile website, LinkedIn, resume).
 
-## Files
-
-- `index.html` / `styles.css` — site source (kept in sync with `nikhilamaragani-jpg.github.io` when updated there)
-- `ENABLE_PAGES.md` — optional project Pages setup
+This repository is **not** a second portfolio brand. `index.html` redirects visitors to the primary user site.
 
 ## Author
 
