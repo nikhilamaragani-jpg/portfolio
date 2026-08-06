@@ -2,9 +2,7 @@
 
 **Primary live site:** https://nikhilamaragani-jpg.github.io/
 
-Use that URL everywhere (GitHub profile website, LinkedIn, resume).
-
-This repository is **not** a second portfolio brand. `index.html` redirects visitors to the primary user site.
+This repository is not a second brand. `index.html` redirects visitors to the primary GitHub Pages site.
 
 ## Author
 
