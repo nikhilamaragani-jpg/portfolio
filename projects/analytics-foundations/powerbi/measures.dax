@@ -1,0 +1,37 @@
+// Table: retail_orders (import projects/analytics-foundations/data/retail_orders.csv)
+// Currency in this fictional dataset is EUR. These measures are templates for a Power BI model.
+
+Total Revenue EUR =
+SUMX (
+    retail_orders,
+    retail_orders[units]
+        * retail_orders[unit_price_eur]
+        * ( 1 - retail_orders[discount_rate] )
+)
+
+Gross Profit EUR =
+[Total Revenue EUR]
+    - SUMX ( retail_orders, retail_orders[units] * retail_orders[unit_cost_eur] )
+
+Gross Margin % =
+DIVIDE ( [Gross Profit EUR], [Total Revenue EUR] )
+
+Orders =
+DISTINCTCOUNT ( retail_orders[order_id] )
+
+Customers =
+DISTINCTCOUNT ( retail_orders[customer_id] )
+
+Average Order Value EUR =
+DIVIDE ( [Total Revenue EUR], [Orders] )
+
+Repeat Customers =
+COUNTROWS (
+    FILTER (
+        VALUES ( retail_orders[customer_id] ),
+        CALCULATE ( DISTINCTCOUNT ( retail_orders[order_id] ) ) > 1
+    )
+)
+
+Repeat Customer Rate % =
+DIVIDE ( [Repeat Customers], [Customers] )

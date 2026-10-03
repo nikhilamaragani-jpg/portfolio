@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Customer retention cohort dashboard using reproducible fictional retail data." />
+  <title>Customer Retention Dashboard | Nikhil Amaragani</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="dash-header">
+    <a href="../../../index.html" class="back-link">← Portfolio</a>
+    <nav aria-label="Project dashboards">
+      <a href="index.html">Sales & Profit</a>
+      <a class="active" href="retention.html">Customer Retention</a>
+      <a href="../README.md">Project Method</a>
+    </nav>
+  </header>
+  <main class="dash-main">
+    <p class="eyebrow">FOUNDATIONAL ANALYTICS PROJECT · SQL + PYTHON</p>
+    <div class="title-row">
+      <div>
+        <h1>Customer retention</h1>
+        <p class="subtitle">Cohort analysis tracks what share of each acquisition-month group returned in later calendar months.</p>
+      </div>
+    </div>
+    <p class="notice"><strong>Practice dataset:</strong> customers and orders are synthetic. Retention is the percentage of a cohort placing at least one order in a specific elapsed month—not cumulative retention.</p>
+    <div class="source-line" id="cohort-period">Loading cohort period…</div>
+    <section class="kpi-grid retention-kpis" aria-label="Customer retention indicators">
+      <article class="kpi"><span>Customers in dataset</span><strong id="customers">—</strong><small>Distinct synthetic IDs</small></article>
+      <article class="kpi"><span>Repeat customers</span><strong id="repeat-customers">—</strong><small>More than one distinct order</small></article>
+      <article class="kpi"><span>Repeat customer rate</span><strong id="repeat-rate">—</strong><small>Repeat customers ÷ all customers</small></article>
+      <article class="kpi"><span>Month 1 cohort retention</span><strong id="month-one">—</strong><small>Weighted over observable cohorts</small></article>
+    </section>
+    <section class="panel">
+      <div class="panel-heading"><div><p class="eyebrow">01 / COHORT MATRIX</p><h2>Monthly return activity</h2></div><p>Each row is an acquisition cohort. Month 0 is the acquisition month; later columns show customers active in that specific month.</p></div>
+      <div class="table-scroll" tabindex="0" aria-label="Scrollable customer retention cohort table">
+        <table id="cohort-table">
+          <caption>Percentage of customers in each acquisition cohort who placed at least one order in each elapsed month.</caption>
+          <thead></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+      <p class="table-note">Cell shading represents retention percentage. “—” means the cohort has not yet reached that elapsed month in the observation window. Each cell also shows retained customers / original cohort size.</p>
+    </section>
+    <section class="panel insight-panel">
+      <p class="eyebrow">ANALYST NOTES</p>
+      <h2>What cohort analysis helps answer</h2>
+      <ul>
+        <li>Do newer acquisition cohorts behave differently from earlier cohorts?</li>
+        <li>At which elapsed month does the observed return rate change most?</li>
+        <li>Which cohort comparisons are fair given different follow-up windows?</li>
+      </ul>
+      <p>These are questions for investigation, not claims about a real retailer. Because the generator creates repeat-order patterns by design, findings must be interpreted as a method demonstration.</p>
+    </section>
+    <footer class="dash-footer">
+      <span>Retention = monthly active cohort customers ÷ original cohort size</span>
+      <a href="index.html">← Back to sales & profit</a>
+    </footer>
+  </main>
+  <script src="retention.js"></script>
+</body>
+</html>

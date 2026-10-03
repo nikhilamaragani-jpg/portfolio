@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Interactive retail sales and profitability dashboard built with reproducible fictional data." />
+  <title>Retail Sales Dashboard | Nikhil Amaragani</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="dash-header">
+    <a href="../../../index.html" class="back-link">← Portfolio</a>
+    <nav aria-label="Project dashboards">
+      <a class="active" href="index.html">Sales & Profit</a>
+      <a href="retention.html">Customer Retention</a>
+      <a href="../README.md">Project Method</a>
+    </nav>
+  </header>
+  <main class="dash-main">
+    <p class="eyebrow">FOUNDATIONAL ANALYTICS PROJECT · SQL + PYTHON</p>
+    <div class="title-row">
+      <div>
+        <h1>Retail performance</h1>
+        <p class="subtitle">Revenue, profitability, product mix, and regional performance in a fictional retailer.</p>
+      </div>
+      <label class="filter-control">Reporting year
+        <select id="year-filter" aria-label="Filter dashboard by reporting year"></select>
+      </label>
+    </div>
+    <p class="notice"><strong>Practice dataset:</strong> all orders and customer records are synthetic and generated for this portfolio project. They do not represent a real company or customer activity.</p>
+    <div class="source-line" id="period-note">Loading dataset period…</div>
+
+    <section class="kpi-grid" aria-label="Sales and profitability key performance indicators">
+      <article class="kpi"><span>Total revenue</span><strong id="revenue">—</strong><small>After line-level discount</small></article>
+      <article class="kpi"><span>Gross profit</span><strong id="profit">—</strong><small>Revenue less unit cost</small></article>
+      <article class="kpi"><span>Gross margin</span><strong id="margin">—</strong><small>Gross profit ÷ revenue</small></article>
+      <article class="kpi"><span>Average order value</span><strong id="aov">—</strong><small>Revenue ÷ distinct orders</small></article>
+    </section>
+
+    <section class="panel">
+      <div class="panel-heading"><div><p class="eyebrow">01 / TIME SERIES</p><h2>Monthly revenue</h2></div><p>Compare the pattern across the selected year. Months with no orders display as zero; 2025 is partial through the last observed month.</p></div>
+      <div id="monthly-chart" class="chart bars" aria-live="polite"></div>
+    </section>
+
+    <div class="split-panels">
+      <section class="panel">
+        <div class="panel-heading"><div><p class="eyebrow">02 / PRODUCT MIX</p><h2>By category</h2></div></div>
+        <div id="category-chart" class="rank-chart"></div>
+      </section>
+      <section class="panel">
+        <div class="panel-heading"><div><p class="eyebrow">03 / GEOGRAPHY</p><h2>By region</h2></div></div>
+        <div id="region-chart" class="rank-chart"></div>
+      </section>
+    </div>
+
+    <section class="panel insight-panel">
+      <p class="eyebrow">ANALYST NOTES</p>
+      <h2>Read the measures in context.</h2>
+      <ul>
+        <li>Revenue is units × unit price × (1 − discount); gross profit subtracts recorded unit cost.</li>
+        <li>Gross margin is calculated from this simulated dataset; it is not a forecast or industry benchmark.</li>
+        <li>The generator intentionally creates repeat purchases and seasonal price effects for practice; patterns are designed, not discovered in real customer data.</li>
+      </ul>
+    </section>
+    <footer class="dash-footer">
+      <span>Made for analyst practice · Dataset seed 20261003</span>
+      <a href="retention.html">Continue to customer retention →</a>
+    </footer>
+  </main>
+  <script src="dashboard.js"></script>
+</body>
+</html>

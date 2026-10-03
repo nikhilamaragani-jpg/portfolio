@@ -1,0 +1,731 @@
+{
+  "metadata": {
+    "data_type": "synthetic",
+    "currency": "EUR",
+    "period_start": "2024-01-01",
+    "period_end": "2025-08-23",
+    "orders": 477,
+    "customers": 240,
+    "validated": true
+  },
+  "overall": {
+    "orders": 477,
+    "customers": 240,
+    "repeat_customers": 144,
+    "repeat_customer_rate_pct": 60.0,
+    "revenue_eur": 108685.6,
+    "gross_profit_eur": 44335.15,
+    "average_order_value_eur": 227.85,
+    "profit_margin_pct": 40.79
+  },
+  "years": [
+    {
+      "year": 2024,
+      "orders": 408,
+      "customers": 240,
+      "revenue_eur": 93622.46,
+      "gross_profit_eur": 38464.37,
+      "average_order_value_eur": 229.47,
+      "profit_margin_pct": 41.08,
+      "repeat_customer_rate_pct": 48.33
+    },
+    {
+      "year": 2025,
+      "orders": 69,
+      "customers": 46,
+      "revenue_eur": 15063.14,
+      "gross_profit_eur": 5870.78,
+      "average_order_value_eur": 218.31,
+      "profit_margin_pct": 38.97,
+      "repeat_customer_rate_pct": 41.3
+    }
+  ],
+  "monthly": [
+    {
+      "year": 2024,
+      "month": "2024-01",
+      "orders": 20,
+      "customers": 20,
+      "revenue_eur": 4220.4,
+      "gross_profit_eur": 1614.71,
+      "average_order_value_eur": 211.02,
+      "profit_margin_pct": 38.26
+    },
+    {
+      "year": 2024,
+      "month": "2024-02",
+      "orders": 27,
+      "customers": 27,
+      "revenue_eur": 4805.55,
+      "gross_profit_eur": 2223.89,
+      "average_order_value_eur": 177.98,
+      "profit_margin_pct": 46.28
+    },
+    {
+      "year": 2024,
+      "month": "2024-03",
+      "orders": 28,
+      "customers": 28,
+      "revenue_eur": 7552.07,
+      "gross_profit_eur": 2845.97,
+      "average_order_value_eur": 269.72,
+      "profit_margin_pct": 37.68
+    },
+    {
+      "year": 2024,
+      "month": "2024-04",
+      "orders": 29,
+      "customers": 29,
+      "revenue_eur": 6975.29,
+      "gross_profit_eur": 2357.83,
+      "average_order_value_eur": 240.53,
+      "profit_margin_pct": 33.8
+    },
+    {
+      "year": 2024,
+      "month": "2024-05",
+      "orders": 37,
+      "customers": 37,
+      "revenue_eur": 6657.04,
+      "gross_profit_eur": 2883.22,
+      "average_order_value_eur": 179.92,
+      "profit_margin_pct": 43.31
+    },
+    {
+      "year": 2024,
+      "month": "2024-06",
+      "orders": 43,
+      "customers": 43,
+      "revenue_eur": 10752.3,
+      "gross_profit_eur": 4429.15,
+      "average_order_value_eur": 250.05,
+      "profit_margin_pct": 41.19
+    },
+    {
+      "year": 2024,
+      "month": "2024-07",
+      "orders": 35,
+      "customers": 35,
+      "revenue_eur": 10682.78,
+      "gross_profit_eur": 4328.22,
+      "average_order_value_eur": 305.22,
+      "profit_margin_pct": 40.52
+    },
+    {
+      "year": 2024,
+      "month": "2024-08",
+      "orders": 36,
+      "customers": 36,
+      "revenue_eur": 8250.77,
+      "gross_profit_eur": 3173.35,
+      "average_order_value_eur": 229.19,
+      "profit_margin_pct": 38.46
+    },
+    {
+      "year": 2024,
+      "month": "2024-09",
+      "orders": 39,
+      "customers": 39,
+      "revenue_eur": 7786.13,
+      "gross_profit_eur": 2874.94,
+      "average_order_value_eur": 199.64,
+      "profit_margin_pct": 36.92
+    },
+    {
+      "year": 2024,
+      "month": "2024-10",
+      "orders": 47,
+      "customers": 47,
+      "revenue_eur": 8450.76,
+      "gross_profit_eur": 3370.81,
+      "average_order_value_eur": 179.8,
+      "profit_margin_pct": 39.89
+    },
+    {
+      "year": 2024,
+      "month": "2024-11",
+      "orders": 36,
+      "customers": 36,
+      "revenue_eur": 11076.15,
+      "gross_profit_eur": 5173.21,
+      "average_order_value_eur": 307.67,
+      "profit_margin_pct": 46.71
+    },
+    {
+      "year": 2024,
+      "month": "2024-12",
+      "orders": 31,
+      "customers": 31,
+      "revenue_eur": 6413.2,
+      "gross_profit_eur": 3189.05,
+      "average_order_value_eur": 206.88,
+      "profit_margin_pct": 49.73
+    },
+    {
+      "year": 2025,
+      "month": "2025-01",
+      "orders": 20,
+      "customers": 20,
+      "revenue_eur": 4110.76,
+      "gross_profit_eur": 1707.73,
+      "average_order_value_eur": 205.54,
+      "profit_margin_pct": 41.54
+    },
+    {
+      "year": 2025,
+      "month": "2025-02",
+      "orders": 18,
+      "customers": 18,
+      "revenue_eur": 4115.88,
+      "gross_profit_eur": 1441.88,
+      "average_order_value_eur": 228.66,
+      "profit_margin_pct": 35.03
+    },
+    {
+      "year": 2025,
+      "month": "2025-03",
+      "orders": 10,
+      "customers": 10,
+      "revenue_eur": 2480.83,
+      "gross_profit_eur": 1057.52,
+      "average_order_value_eur": 248.08,
+      "profit_margin_pct": 42.63
+    },
+    {
+      "year": 2025,
+      "month": "2025-04",
+      "orders": 8,
+      "customers": 8,
+      "revenue_eur": 1470.22,
+      "gross_profit_eur": 428.35,
+      "average_order_value_eur": 183.78,
+      "profit_margin_pct": 29.14
+    },
+    {
+      "year": 2025,
+      "month": "2025-05",
+      "orders": 7,
+      "customers": 7,
+      "revenue_eur": 1773.52,
+      "gross_profit_eur": 730.33,
+      "average_order_value_eur": 253.36,
+      "profit_margin_pct": 41.18
+    },
+    {
+      "year": 2025,
+      "month": "2025-06",
+      "orders": 4,
+      "customers": 4,
+      "revenue_eur": 898.16,
+      "gross_profit_eur": 387.27,
+      "average_order_value_eur": 224.54,
+      "profit_margin_pct": 43.12
+    },
+    {
+      "year": 2025,
+      "month": "2025-08",
+      "orders": 2,
+      "customers": 2,
+      "revenue_eur": 213.78,
+      "gross_profit_eur": 117.71,
+      "average_order_value_eur": 106.89,
+      "profit_margin_pct": 55.06
+    }
+  ],
+  "categories": [
+    {
+      "year": 2024,
+      "product_category": "Accessories",
+      "orders": 107,
+      "customers": 94,
+      "revenue_eur": 7638.07,
+      "gross_profit_eur": 4722.43,
+      "average_order_value_eur": 71.38,
+      "profit_margin_pct": 61.83
+    },
+    {
+      "year": 2024,
+      "product_category": "Electronics",
+      "orders": 93,
+      "customers": 81,
+      "revenue_eur": 50730.3,
+      "gross_profit_eur": 14864.02,
+      "average_order_value_eur": 545.49,
+      "profit_margin_pct": 29.3
+    },
+    {
+      "year": 2024,
+      "product_category": "Home",
+      "orders": 108,
+      "customers": 93,
+      "revenue_eur": 21200.8,
+      "gross_profit_eur": 11196.0,
+      "average_order_value_eur": 196.3,
+      "profit_margin_pct": 52.81
+    },
+    {
+      "year": 2024,
+      "product_category": "Office",
+      "orders": 100,
+      "customers": 87,
+      "revenue_eur": 14053.29,
+      "gross_profit_eur": 7681.92,
+      "average_order_value_eur": 140.53,
+      "profit_margin_pct": 54.66
+    },
+    {
+      "year": 2025,
+      "product_category": "Accessories",
+      "orders": 15,
+      "customers": 15,
+      "revenue_eur": 1163.32,
+      "gross_profit_eur": 692.68,
+      "average_order_value_eur": 77.55,
+      "profit_margin_pct": 59.54
+    },
+    {
+      "year": 2025,
+      "product_category": "Electronics",
+      "orders": 19,
+      "customers": 16,
+      "revenue_eur": 8992.56,
+      "gross_profit_eur": 2582.34,
+      "average_order_value_eur": 473.29,
+      "profit_margin_pct": 28.72
+    },
+    {
+      "year": 2025,
+      "product_category": "Home",
+      "orders": 16,
+      "customers": 15,
+      "revenue_eur": 2712.64,
+      "gross_profit_eur": 1431.7,
+      "average_order_value_eur": 169.54,
+      "profit_margin_pct": 52.78
+    },
+    {
+      "year": 2025,
+      "product_category": "Office",
+      "orders": 19,
+      "customers": 16,
+      "revenue_eur": 2194.62,
+      "gross_profit_eur": 1164.06,
+      "average_order_value_eur": 115.51,
+      "profit_margin_pct": 53.04
+    }
+  ],
+  "regions": [
+    {
+      "year": 2024,
+      "region": "East",
+      "orders": 96,
+      "customers": 60,
+      "revenue_eur": 25718.19,
+      "gross_profit_eur": 10575.38,
+      "average_order_value_eur": 267.9,
+      "profit_margin_pct": 41.12
+    },
+    {
+      "year": 2024,
+      "region": "North",
+      "orders": 117,
+      "customers": 60,
+      "revenue_eur": 22911.66,
+      "gross_profit_eur": 9234.13,
+      "average_order_value_eur": 195.83,
+      "profit_margin_pct": 40.3
+    },
+    {
+      "year": 2024,
+      "region": "South",
+      "orders": 101,
+      "customers": 60,
+      "revenue_eur": 25435.02,
+      "gross_profit_eur": 10761.73,
+      "average_order_value_eur": 251.83,
+      "profit_margin_pct": 42.31
+    },
+    {
+      "year": 2024,
+      "region": "West",
+      "orders": 94,
+      "customers": 60,
+      "revenue_eur": 19557.59,
+      "gross_profit_eur": 7893.13,
+      "average_order_value_eur": 208.06,
+      "profit_margin_pct": 40.36
+    },
+    {
+      "year": 2025,
+      "region": "East",
+      "orders": 13,
+      "customers": 10,
+      "revenue_eur": 1980.82,
+      "gross_profit_eur": 837.32,
+      "average_order_value_eur": 152.37,
+      "profit_margin_pct": 42.27
+    },
+    {
+      "year": 2025,
+      "region": "North",
+      "orders": 7,
+      "customers": 6,
+      "revenue_eur": 932.04,
+      "gross_profit_eur": 451.02,
+      "average_order_value_eur": 133.15,
+      "profit_margin_pct": 48.39
+    },
+    {
+      "year": 2025,
+      "region": "South",
+      "orders": 17,
+      "customers": 11,
+      "revenue_eur": 4072.25,
+      "gross_profit_eur": 1477.15,
+      "average_order_value_eur": 239.54,
+      "profit_margin_pct": 36.27
+    },
+    {
+      "year": 2025,
+      "region": "West",
+      "orders": 32,
+      "customers": 19,
+      "revenue_eur": 8078.04,
+      "gross_profit_eur": 3105.3,
+      "average_order_value_eur": 252.44,
+      "profit_margin_pct": 38.44
+    }
+  ],
+  "cohorts": [
+    {
+      "cohort": "2024-01",
+      "size": 20,
+      "retained_customers": [
+        20,
+        7,
+        4,
+        3,
+        4,
+        3,
+        1,
+        0,
+        2,
+        1,
+        0,
+        0,
+        1
+      ],
+      "retention_pct": [
+        100.0,
+        35.0,
+        20.0,
+        15.0,
+        20.0,
+        15.0,
+        5.0,
+        0.0,
+        10.0,
+        5.0,
+        0.0,
+        0.0,
+        5.0
+      ]
+    },
+    {
+      "cohort": "2024-02",
+      "size": 20,
+      "retained_customers": [
+        20,
+        4,
+        3,
+        3,
+        4,
+        0,
+        2,
+        0,
+        1,
+        1,
+        0,
+        1
+      ],
+      "retention_pct": [
+        100.0,
+        20.0,
+        15.0,
+        15.0,
+        20.0,
+        0.0,
+        10.0,
+        0.0,
+        5.0,
+        5.0,
+        0.0,
+        5.0
+      ]
+    },
+    {
+      "cohort": "2024-03",
+      "size": 20,
+      "retained_customers": [
+        20,
+        3,
+        4,
+        3,
+        4,
+        2,
+        1
+      ],
+      "retention_pct": [
+        100.0,
+        15.0,
+        20.0,
+        15.0,
+        20.0,
+        10.0,
+        5.0
+      ]
+    },
+    {
+      "cohort": "2024-04",
+      "size": 20,
+      "retained_customers": [
+        20,
+        6,
+        5,
+        3,
+        3,
+        1,
+        1,
+        1,
+        0,
+        0,
+        1
+      ],
+      "retention_pct": [
+        100.0,
+        30.0,
+        25.0,
+        15.0,
+        15.0,
+        5.0,
+        5.0,
+        5.0,
+        0.0,
+        0.0,
+        5.0
+      ]
+    },
+    {
+      "cohort": "2024-05",
+      "size": 20,
+      "retained_customers": [
+        20,
+        8,
+        2,
+        3,
+        1,
+        2,
+        0,
+        1
+      ],
+      "retention_pct": [
+        100.0,
+        40.0,
+        10.0,
+        15.0,
+        5.0,
+        10.0,
+        0.0,
+        5.0
+      ]
+    },
+    {
+      "cohort": "2024-06",
+      "size": 20,
+      "retained_customers": [
+        20,
+        5,
+        3,
+        5,
+        1,
+        2,
+        0,
+        0,
+        1
+      ],
+      "retention_pct": [
+        100.0,
+        25.0,
+        15.0,
+        25.0,
+        5.0,
+        10.0,
+        0.0,
+        0.0,
+        5.0
+      ]
+    },
+    {
+      "cohort": "2024-07",
+      "size": 20,
+      "retained_customers": [
+        20,
+        3,
+        3,
+        8,
+        1,
+        1,
+        0,
+        1,
+        0,
+        0,
+        1
+      ],
+      "retention_pct": [
+        100.0,
+        15.0,
+        15.0,
+        40.0,
+        5.0,
+        5.0,
+        0.0,
+        5.0,
+        0.0,
+        0.0,
+        5.0
+      ]
+    },
+    {
+      "cohort": "2024-08",
+      "size": 20,
+      "retained_customers": [
+        20,
+        6,
+        6,
+        2,
+        0,
+        2,
+        2,
+        2,
+        1,
+        0,
+        1
+      ],
+      "retention_pct": [
+        100.0,
+        30.0,
+        30.0,
+        10.0,
+        0.0,
+        10.0,
+        10.0,
+        10.0,
+        5.0,
+        0.0,
+        5.0
+      ]
+    },
+    {
+      "cohort": "2024-09",
+      "size": 20,
+      "retained_customers": [
+        20,
+        7,
+        5,
+        3,
+        3,
+        2,
+        0,
+        1
+      ],
+      "retention_pct": [
+        100.0,
+        35.0,
+        25.0,
+        15.0,
+        15.0,
+        10.0,
+        0.0,
+        5.0
+      ]
+    },
+    {
+      "cohort": "2024-10",
+      "size": 20,
+      "retained_customers": [
+        20,
+        4,
+        3,
+        3,
+        4,
+        3,
+        2,
+        0,
+        2,
+        0,
+        1
+      ],
+      "retention_pct": [
+        100.0,
+        20.0,
+        15.0,
+        15.0,
+        20.0,
+        15.0,
+        10.0,
+        0.0,
+        10.0,
+        0.0,
+        5.0
+      ]
+    },
+    {
+      "cohort": "2024-11",
+      "size": 20,
+      "retained_customers": [
+        20,
+        3,
+        4,
+        3,
+        1,
+        2,
+        1
+      ],
+      "retention_pct": [
+        100.0,
+        15.0,
+        20.0,
+        15.0,
+        5.0,
+        10.0,
+        5.0
+      ]
+    },
+    {
+      "cohort": "2024-12",
+      "size": 20,
+      "retained_customers": [
+        20,
+        6,
+        4,
+        4,
+        2,
+        5,
+        1,
+        0,
+        1
+      ],
+      "retention_pct": [
+        100.0,
+        30.0,
+        20.0,
+        20.0,
+        10.0,
+        25.0,
+        5.0,
+        0.0,
+        5.0
+      ]
+    }
+  ]
+}
